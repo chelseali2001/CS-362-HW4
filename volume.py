@@ -1,2 +1,2 @@
-def vol(l, w, h):
-	return l * w * h
+def vol(n):
+	return n * n * n
