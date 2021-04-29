@@ -1,2 +1,5 @@
 def avg(arr):
-	return sum(arr) / len(arr)
+    if (len(arr) == 0):
+        return "List cannot be empty"
+
+    return sum(arr) / len(arr)
