@@ -10,6 +10,9 @@ class SimpleTest(unittest.TestCase):
     
     def test_average1(self):
         self.assertEqual(average.avg([0, 0, 0]), 0.0)
+    
+    def test_average2(self):
+        self.assertEqual(average.avg([5.5, 1, -4, 7]), 2.375)
 
 if __name__ == '__main__':
 	unittest.main()
